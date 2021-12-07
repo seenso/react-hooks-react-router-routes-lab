@@ -8,7 +8,7 @@ import Movies from "./Movies";
 
 function App() {
   return (
-    <div>{/*{code here}*/}
+    <div>
       <NavBar />
       <Switch>
         <Route path="/movies" component={Movies} />
